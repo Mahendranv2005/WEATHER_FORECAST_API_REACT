@@ -1,0 +1,62 @@
+body {
+  background-color: AliceBlue;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: White;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light Black */
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.city-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid LightGray;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: Blue;
+  color: White;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: DarkBlue;
+}
+
+.detail {
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.detail h2 {
+  font-size: 22px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.error {
+  color: Red;
+  margin-top: 10px;
+}
