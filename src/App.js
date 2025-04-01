@@ -51,7 +51,7 @@ function App() {
       {error && <p className="error">{error}</p>}
 
       {weather && !loading && (
-        <div className="detail">
+        <div>
           <h2 className="city-name">{weather.name}</h2>
           <h2 className="info">🌡️ Temperature: {weather.main.temp}°C</h2>
           <h2 className="info">
